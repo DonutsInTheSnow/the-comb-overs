@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <div className="landscape-message hidden md:block text-center p-4 text-white bg-black">
+        <div className="landscape-message">
           Please rotate your device to portrait mode for the best experience!
         </div>
         <Header />

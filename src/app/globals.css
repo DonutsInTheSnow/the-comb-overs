@@ -42,19 +42,21 @@ code {
   font-family: var(--font-iceland) !important; 
 }
 
-/* Handle limiting mobile orientation landscape because I didn't work out a design */
+/* Landscape message for mobile */
 @media (max-width: 767px) and (orientation: landscape) {
-  body {
+  .landscape-message {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-color: #000;
     color: #fff;
-    height: 100vh;
-    overflow: hidden;
-  }
-  .landscape-message {
     padding: 1rem;
     text-align: center;
+    z-index: 1000; /* Ensure it’s above other content */
   }
 }
