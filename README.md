@@ -1,4 +1,4 @@
-# Tinnitus Tees - Next.js Portfolio Project
+# The Comb Overs - Next.js Portfolio Project
 
 Now, **The Comb Overs** ain’t nothin’ but a fancy e-commerce contraption, spun up with this newfangled [Next.js](https://nextjs.org) to show I can wrangle a full-stack web doodad from start to finish. It’s the second of ten such ventures I reckon to undertake, each one a different critter with its own peculiar ways and means. You’ll find a catalog of goods, a cart to toss ‘em in, and a Stripe checkout that’ll take your money quicker’n a Mississippi gambler, all tied up neat with Supabase to keep the orders straight.
 

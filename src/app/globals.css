@@ -41,3 +41,20 @@ code {
 .font-iceland {
   font-family: var(--font-iceland) !important; 
 }
+
+/* Handle limiting mobile orientation landscape because I didn't work out a design */
+@media (max-width: 767px) and (orientation: landscape) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .landscape-message {
+    padding: 1rem;
+    text-align: center;
+  }
+}

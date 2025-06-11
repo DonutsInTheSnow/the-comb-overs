@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: 'The Comb Overs',
-  description: 'Official website for The Comb Overs - tour dates and merchandise',
+  description: 'Rocking the Dome',
 };
 
 export default function RootLayout({
@@ -28,6 +28,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <div className="landscape-message hidden md:block text-center p-4 text-white bg-black">
+          Please rotate your device to portrait mode for the best experience!
+        </div>
         <Header />
         <ClientCartProvider>{children}</ClientCartProvider>
         <Footer />
