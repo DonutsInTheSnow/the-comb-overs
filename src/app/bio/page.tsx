@@ -44,7 +44,7 @@ export default function BioPage() {
               </p>
             </div>
 
-            <div className="w-full md:max-w-[375px] xl:max-w-[950px] md:ml-auto xl:leading-[25px]">
+            <div className="w-full md:max-w-[375px] xl:max-w-[950px] md:ml-auto xl:leading-[25px] mb-24">
               <h3 className="text-[24px] xl:text-[28px] text-center md:text-right mt-6 font-semibold">Why it happened</h3>
               <p className="text-[19px] xl:text-[24px] text-left md:text-right mt-4">
                 A rule that applies to rock and roll is that the drummer is always the most effed up member. With The Comb Overs it turns out to be Floyd. Right, Floyd&rsquo;s our bass player. But here&apos;s what we came to learn. He used to play drums.
